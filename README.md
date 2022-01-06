@@ -32,11 +32,11 @@ The E-Commerce Back End uses MySQL2 and uses Sequelize to connect the database t
 
 4. Create a .env file in the root directory and enter your MySQL credentials. Formatting:
 
-`
-DB_USER=''
-DB_PW=''
-DB_NAME=''
-`
+    `DB_USER=''`
+
+    `DB_PW=''`
+
+    `DB_NAME='ecommerce_db'`
 
 5. To populate the database with example data, run `npm run seed`.
 
